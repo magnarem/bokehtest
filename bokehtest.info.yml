@@ -1,0 +1,5 @@
+name: 'bokehtest'
+type: module
+description: 'Module for testing bokeh integreation via fastapi'
+core_version_requirement: ^9 || ^10
+package: 'METSIS TEST'

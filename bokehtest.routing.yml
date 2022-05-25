@@ -1,0 +1,8 @@
+
+bokehtest.default_controller_examplebokeh:
+  path: '/bokehtest/examplebokeh'
+  defaults:
+    _controller: '\Drupal\bokehtest\Controller\DefaultController::examplebokeh'
+    _title: 'exampledash'
+  requirements:
+    _permission: 'access content'

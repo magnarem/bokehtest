@@ -1,0 +1,37 @@
+<?php
+
+/**
+ * @file
+ * Contains bokehtest.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function bokehtest_help($route_name, RouteMatchInterface $route_match)
+{
+    switch ($route_name) {
+    // Main module help for the bokehtest module.
+    case 'help.page.bokehtest':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Module for testing bokeh integreation via fastapi') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ *//*
+function bokehtest_theme() {
+  return [
+    'bokehtest' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+*/

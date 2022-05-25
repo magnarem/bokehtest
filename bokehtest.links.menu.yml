@@ -1,0 +1,6 @@
+bokehtest.default_controller_examplebokeh:
+  title: 'Bokeh test'
+  description: 'Endpoint for testing Drupal<->Bokeh integration'
+  route_name: bokehtest.default_controller_examplebokeh
+  menu_name: main
+  weight: 999
